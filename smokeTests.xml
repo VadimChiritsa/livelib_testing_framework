@@ -1,0 +1,13 @@
+<classes>
+    <class name="tests.login.LoginTests"></class>
+    <class name="tests.logoff.LogoffTests"></class>
+    <class name="tests.registration.RegistrationTests"></class>
+    <class name="tests.searchTests.SearchTests"></class>
+    <class name="tests.header.HeaderTests"></class>
+    <class name="tests.filter.FilteringTests"></class>
+    <class name="tests.books.BookTests"></class>
+    <class name="tests.mail.MailTests"></class>
+</classes>
+
+
+

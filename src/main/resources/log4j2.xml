@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="System.out">
+            <PatternLayout pattern="%5p | %d{yyy-MM-dd HH:mm:ss.SSS} | %m%n"/>
+        </Console>
+        <File name="File" fileName="test_results_log.txt" immediateFlush="true" append="false">
+            <PatternLayout pattern="%5p | %d{yyy-MM-dd HH:mm:ss.SSS} | %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
